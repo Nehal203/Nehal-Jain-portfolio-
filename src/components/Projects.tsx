@@ -65,6 +65,133 @@ const Projects: React.FC = () => {
       featured: true
     },
     {
+      title: 'NITOP Website',
+      description: (
+        <>
+          A modern and visually engaging website developed using HTML, CSS, and JavaScript, focused on delivering a seamless user experience through clean design, smooth animations, and responsive layouts. I recreated the website's functionality and interactive elements, ensuring fast performance, intuitive navigation, and consistent responsiveness across mobile, tablet, and desktop devices. The project emphasizes modern UI/UX principles and dynamic user interactions.
+          <br /><br />
+          Live Demo:{" "}
+          <a
+            href="https://nitop.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline hover:text-blue-600"
+          >
+            View Website
+          </a>
+        </>
+      ),
+      image: '/images/nitop.png',
+      tech: ['HTML', 'CSS', 'JavaScript'],
+      category: 'Full Stack',
+      github: 'https://nitop.in/',
+      demo: 'https://nitop.in/',
+      icon: <MessageSquare size={24} />,
+      featured: false
+    },
+    {
+      title: 'ProSight Financial Group',
+      description: (
+        <>
+          A professional financial services website developed using HTML, CSS, and JavaScript, focused on delivering a clean, modern, and trustworthy user experience. The website features a fully responsive layout, intuitive navigation, smooth animations and interactive transitions, and optimized performance across all devices. Built with attention to UI/UX, accessibility, and seamless browsing to effectively showcase financial services and company information.
+          <br /><br />
+          Live Demo:{" "}
+          <a
+            href="https://prosightfinancialgroup.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline hover:text-blue-600"
+          >
+            View Website
+          </a>
+        </>
+      ),
+      image: '/images/prosight.png',
+      tech: ['HTML', 'CSS', 'JavaScript'],
+      category: 'Full Stack',
+      github: 'https://prosightfinancialgroup.com/',
+      demo: 'https://prosightfinancialgroup.com/',
+      icon: <MessageSquare size={24} />,
+      featured: false
+    },
+    {
+      title: 'Thinker generation',
+      description: (
+        <>
+          A modern business website developed using Astro and Sanity CMS, focused on performance, responsiveness, and user experience. The website features smooth animations, a clean UI, and dynamic content management through Sanity, allowing content such as text, images, and website sections to be updated directly from an admin dashboard without modifying the code. Built with a scalable and SEO-friendly architecture to ensure fast loading speeds and seamless performance across all devices.
+          <br /><br />
+          Live Demo:{" "}
+          <a
+            href="https://websitedemo.smartbitdigital.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline hover:text-blue-600"
+          >
+            View Website
+          </a>
+        </>
+      ),
+      image: '/images/thinker.png',
+      tech: ['Astro', 'Sanity CMS', 'Css', 'JavaScript', 'Html'],
+      category: 'Full Stack',
+      github: 'https://websitedemo.smartbitdigital.com/',
+      demo: 'https://websitedemo.smartbitdigital.com/',
+      icon: <MessageSquare size={24} />,
+      featured: false
+    },
+    {
+      title: 'Spanlite Mart',
+      description: (
+        <>
+          A fully functional e-commerce store developed using Shopify, focused on delivering a smooth and user-friendly online shopping experience. I worked on store setup, theme customization, product management, collection organization, responsive design, and overall UI enhancements. The store features intuitive navigation, optimized product pages, and a mobile-friendly layout to improve customer engagement and conversions.
+          <br /><br />
+          Live Demo:{" "}
+          <a
+            href="https://spanlite-mart.myshopify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline hover:text-blue-600"
+          >
+            View Website
+          </a>
+          <br />
+          Password:1
+        </>
+      ),
+      image: '/images/spanlight.png',
+      tech: ['Shopify', 'Css', 'JavaScript', 'Html'],
+      category: 'Full Stack',
+      github: 'https://spanlite-mart.myshopify.com/',
+      demo: 'https://spanlite-mart.myshopify.com/',
+      icon: <MessageSquare size={24} />,
+      featured: false
+    },
+    {
+      title: 'SuperDesk Website',
+      description: (
+        <>
+          A modern and interactive business website developed with a strong focus on smooth animations, responsive design, and user experience. I recreated the website's functionality, layouts, and visual interactions, implementing engaging UI elements, scroll-based animations, and optimized performance across devices.
+          <br /><br />
+          Live Demo:{" "}
+          <a
+            href="https://superdesk.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline hover:text-blue-600"
+          >
+            View Website
+          </a>
+        </>
+      ),
+      image: '/images/superdesk.png',
+      tech: ['Html', 'Css', 'JavaScript'],
+      category: 'Full Stack',
+      github: 'https://superdesk.in/',
+      demo: 'https://superdesk.in/',
+      icon: <MessageSquare size={24} />,
+      featured: false
+    },
+    {
       title: 'SmartBit Digital Website',
       description: (
         <>
@@ -91,32 +218,32 @@ const Projects: React.FC = () => {
       featured: false
     },
     {
-  title: 'Pawganix E-commerce Store',
-  description: (
-    <>
-      An e-commerce website developed during my work at{" "}
-      <span className="font-medium">The Threo Media</span> using Shopify for{" "}
-      <a
-        href="https://pawganix.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-500 underline hover:text-blue-600"
-      >
-        Pawganix
-      </a>
-      , a pet wellness brand offering natural supplements for dogs and cats. I worked on customizing the Shopify theme, managing product listings, updating content, and handling overall store setup to ensure a smooth shopping experience.
-      <br /><br />
-      The website includes product categorization, a clean UI, and features focused on improving user engagement and conversions.
-    </>
-  ),
-  image: '/images/pawganix.png',
-  tech: ['Shopify'],
-  category: 'Full Stack',
-  github: 'https://pawganix.com/',
-  demo: 'https://pawganix.com/',
-  icon: <MessageSquare size={24} />,
-  featured: false
-},
+      title: 'Pawganix E-commerce Store',
+      description: (
+        <>
+          An e-commerce website developed during my work at{" "}
+          <span className="font-medium">The Threo Media</span> using Shopify for{" "}
+          <a
+            href="https://pawganix.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline hover:text-blue-600"
+          >
+            Pawganix
+          </a>
+          , a pet wellness brand offering natural supplements for dogs and cats. I worked on customizing the Shopify theme, managing product listings, updating content, and handling overall store setup to ensure a smooth shopping experience.
+          <br /><br />
+          The website includes product categorization, a clean UI, and features focused on improving user engagement and conversions.
+        </>
+      ),
+      image: '/images/pawganix.png',
+      tech: ['Shopify'],
+      category: 'Full Stack',
+      github: 'https://pawganix.com/',
+      demo: 'https://pawganix.com/',
+      icon: <MessageSquare size={24} />,
+      featured: false
+    },
     {
       title: 'Ecommerce',
       description: (
