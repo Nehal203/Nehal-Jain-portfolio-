@@ -83,8 +83,8 @@ const Projects: React.FC = () => {
       image: '/images/dishout.png',
       tech: ['React'],
       category: 'Frontend',
-      github: 'https://github.com/jigarprajapati/analytics-dashboard',
-      demo: 'https://analytics-demo.jigarprajapati.dev',
+      github: 'https://github.com/nehaljain/analytics-dashboard',
+      demo: 'https://analytics-demo.nehaljain.dev',
       icon: <BarChart3 size={24} />,
       featured: false
     },
